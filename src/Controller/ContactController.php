@@ -13,4 +13,5 @@ class ContactController extends AbstractController
         $name = $request->request->get('name'); 
         return $this->render('contact/index.html.twig', ['message' => 'Thanks ' . $name . ', your form has been send']);
     }
+    //modif git
 }
